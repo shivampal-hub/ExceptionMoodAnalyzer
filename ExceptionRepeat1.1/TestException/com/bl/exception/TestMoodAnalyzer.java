@@ -13,11 +13,4 @@ public class TestMoodAnalyzer {
 
     }
 
-    @Test
-    public void analyzeMoodAny_thenHappy() {
-
-        MoodAnalyzer analyzer = new MoodAnalyzer("I am in Any Mood");
-        Assert.assertEquals("Happy", analyzer.analyseMood());
-
-    }
 }
